@@ -1,12 +1,12 @@
 #include <iostream>
-using namespace std;
+//using namespace std;
 
 int main()
 {
-	cout << "Hello World!";
+	std::cout << "Hello World!" << std::endl;
 
 	// cin.ignore() make the console to waint for any key to be pressed.
-	cin.ignore();
+	std::cin.ignore();
 
 	return 0;
 }
